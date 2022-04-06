@@ -24,3 +24,24 @@ day DATE,
 
 foreign key(sid) references sailor(sid),
 foreign key(bid) references boats(bid));
+
+
+insert into sailor values("01","sailor1",4,40);
+insert into sailor values("02","bob",3,49);
+insert into sailor values("03","sailor3",4,56);
+insert into sailor values("04","sailor4",5,47);
+insert into sailor values("05","sailor5",2,36);
+
+
+insert into boats values("101","boat1","white");
+insert into boats values("102","boat2","red");
+insert into boats values("103","boat3","green");
+insert into boats values("104","boat4","cream");
+insert into boats values("105","boat5","blue");
+
+insert into reserves values("01","101",2022-01-01);
+insert into reserves values("02","104",2022-01-02);
+insert into reserves values("03","101",2022-01-01);
+insert into reserves values("01","102",2022-01-01);
+insert into reserves values("03","102",2022-01-01);
+insert into reserves values("01","101",2022-01-01);
