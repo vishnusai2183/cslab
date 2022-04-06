@@ -1,0 +1,26 @@
+create database lab7_201cs160;
+
+use lab7_201cs160;
+
+create table sailor(
+sid varchar(10),
+sname varchar(30),
+rating int,
+age int,
+primary key(sid));
+
+
+create table boats(
+bid varchar(10),
+bname varchar(20),
+color varchar(10),
+primary key(bid));
+
+
+create table reserves(
+sid varchar(10),
+bid varchar(10),
+day DATE,
+
+foreign key(sid) references sailor(sid),
+foreign key(bid) references boats(bid));
