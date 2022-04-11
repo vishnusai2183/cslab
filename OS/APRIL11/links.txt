@@ -1,0 +1,3 @@
+indexed - https://exploringbits.com/indexed-file-allocation-program-in-c/
+
+linked - https://exploringbits.com/linked-file-allocation-program-in-c/
