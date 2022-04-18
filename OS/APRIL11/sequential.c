@@ -55,7 +55,7 @@ main ()
       files[i] = 0;
     }
 
-  printf ("The allocated files are: ");
+  
   sequential (files);
   return 0;
 }
